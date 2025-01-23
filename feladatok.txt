@@ -1,0 +1,65 @@
+1. feladat
+
+<script>
+
+let neve = "Szakács Péter";
+let csoport = "Team16";
+let HTML = "90-es";
+let CSS = "80-as";
+let Javascript = "40-es";
+
+document.write(`<br>A program készítője ${neve}`);
+document.write(`<br>A ${csoport} csoport tagja`);
+document.write(`<br>A HTML-t ${HTML} szinten érti`);
+document.write(`<br>A CSS-t ${CSS} szinten érti`);
+document.write(`<br>A JavaScript-et ${Javascript} szinten érti`);
+
+</script>
+
+-------------------------------------------------------------------
+3. feladat
+
+<script>
+
+let szam_egy = 2;
+let szam_ketto = 3;
+
+let hatvany = szam_egy ** szam_ketto;
+document.write(`<br>A ${szam_egy} a ${szam_ketto}-dik hatvány értéke: ${hatvany}`); 
+
+</script>
+-------------------------------------------------------------------
+
+4. feladat
+
+<script>
+
+let eletkor = prompt("Add meg az életkort:");
+
+if (eletkor < 0 || eletkor > 120) {
+    document.write("Hiba: érvénytelen életkor");
+}
+else if (eletkor <= 6) {
+    document.write("Az illető kisgyermekkorú");
+}
+else if (eletkor <= 12) {
+    document.write("Az illető gyermekkorú");
+}
+else if (eletkor <= 16) {
+    document.write("Az illető serdülőkorú");
+}
+else if (eletkor <= 20) {
+    document.write("Az illető ifjúkorú");
+}
+else if (eletkor <= 30) {
+    document.write("Az illető fiatal felnőttkorú");
+}
+else if (eletkor <= 60) {
+    document.write("Az illető felnőttkorú");
+}
+else {
+    document.write("Az illető aggkorú");
+}
+
+</script>
+-------------------------------------------------------------------
